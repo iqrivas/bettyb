@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bettyb/static/css/main.e33737cc.chunk.css",
-    "main.js": "/bettyb/static/js/main.2a3125dc.chunk.js",
-    "main.js.map": "/bettyb/static/js/main.2a3125dc.chunk.js.map",
+    "main.js": "/bettyb/static/js/main.124e2726.chunk.js",
+    "main.js.map": "/bettyb/static/js/main.124e2726.chunk.js.map",
     "runtime-main.js": "/bettyb/static/js/runtime-main.a372f7a4.js",
     "runtime-main.js.map": "/bettyb/static/js/runtime-main.a372f7a4.js.map",
     "static/css/2.af3c1da9.chunk.css": "/bettyb/static/css/2.af3c1da9.chunk.css",
     "static/js/2.73d56d6a.chunk.js": "/bettyb/static/js/2.73d56d6a.chunk.js",
     "static/js/2.73d56d6a.chunk.js.map": "/bettyb/static/js/2.73d56d6a.chunk.js.map",
     "index.html": "/bettyb/index.html",
-    "precache-manifest.466722b1f106d2a426d6ca1cc1480bcf.js": "/bettyb/precache-manifest.466722b1f106d2a426d6ca1cc1480bcf.js",
+    "precache-manifest.dd4a79412a1ef948ba471825e763509a.js": "/bettyb/precache-manifest.dd4a79412a1ef948ba471825e763509a.js",
     "service-worker.js": "/bettyb/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/bettyb/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.e33737cc.chunk.css.map": "/bettyb/static/css/main.e33737cc.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.73d56d6a.chunk.js",
     "static/css/main.e33737cc.chunk.css",
-    "static/js/main.2a3125dc.chunk.js"
+    "static/js/main.124e2726.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6825c3ff9a425a5fa8a1127c45289cb1",
+    "revision": "3e342358068174ca0547425510b432c1",
     "url": "/bettyb/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bettyb/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "b59846d761883b69cd9a",
+    "revision": "f14e97969fa756aefe2d",
     "url": "/bettyb/static/css/main.e33737cc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bettyb/static/js/2.73d56d6a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b59846d761883b69cd9a",
-    "url": "/bettyb/static/js/main.2a3125dc.chunk.js"
+    "revision": "f14e97969fa756aefe2d",
+    "url": "/bettyb/static/js/main.124e2726.chunk.js"
   },
   {
     "revision": "b7fabe96526be818059a",
