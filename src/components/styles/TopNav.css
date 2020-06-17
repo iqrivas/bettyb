@@ -1,7 +1,29 @@
 .topnav{
-    background-color: deeppink;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: hotpink;
     font-size: calc(10px + 2vmin);
 
   }
+
+.footer {
+    height: 60px;
+    background-color: hotpink;
+    font-size: calc(6px + 2vmin);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color:white;
+}
+
+a.social{
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block; 
+  color: #4267B2;
+}
+
+a.social :hover{
+  transform: translateY(-2px);
+}
 
 
