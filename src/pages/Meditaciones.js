@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Constelaciones extends React.Component {
+class Meditaciones extends React.Component {
     render() {
         return (
             <h1>Informacion sobre Constelaciones</h1>
@@ -8,4 +8,4 @@ class Constelaciones extends React.Component {
     }
 }
 
-export default Constelaciones;
+export default Meditaciones;

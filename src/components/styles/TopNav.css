@@ -1,10 +1,79 @@
-.topnav{
-    padding-top: 0px;
-    padding-bottom: 0px;
-    background-color: hotpink;
-    font-size: calc(10px + 2vmin);
+header {
+  background-image: url('../../images/bg_waterlilly.jpg');
+  background-size: cover;
+  min-height: 100vh;
+}
 
-  }
+a {
+  color:white ;
+  text-decoration: none;
+}
+
+.navigation {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 1440px;
+  max-width: 100%;
+}
+
+.pre-nav {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: lightpink;
+  font-weight: bold;
+  padding: 0.7rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  flex: 1 auto;
+}
+
+nav li a {
+  background-color:lightpink;
+  display: block;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a.active {
+  background-color: white;
+  color: lightpink;
+  font-weight: bold;
+}
+
+nav a:hover {
+  opacity: 0.9;
+  color:white ;
+  text-decoration: none;
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 2rem;
+}
+
+.main-image img {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
 
 .footer {
     height: 60px;
