@@ -28,21 +28,14 @@ a {
   padding: 0.7rem;
 }
 
-nav ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-}
-
-nav li {
-  flex: 1 auto;
-}
-
-nav li a {
-  background-color:lightcoral;
-  display: block;
-  padding: 0.5rem;
+.navbar-nav {
   text-align: center;
+}
+
+.nav-link {
+  background-color: lightcoral;
+  color: white!important;
+  opacity: 0.8;
 }
 
 nav a.active {
@@ -54,7 +47,7 @@ nav a.active {
 nav a:hover {
   opacity: 0.9;
   background-color: white;
-  color: lightcoral;
+  color: lightcoral!important;
   text-decoration: none;
 }
 
@@ -75,7 +68,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width:90%;
+  width:100%;
 }
 
 .content img {
@@ -84,18 +77,17 @@ nav a:hover {
   
 }
 
-
-.event h1 {
-  margin-block-start: 0;
-}
-
 a.highlight {
   background-color: white;
   border-radius: 5px;
   color:  lightcoral;
   font-weight: bold;
   padding: 0.5rem;
-  align-self: auto;
+  display: inline-block;
+}
+
+.card-link+.card-link {
+  margin-left: 0;
 }
 
 .event {
@@ -103,10 +95,10 @@ a.highlight {
   border-radius: 5px;
   display: inline-block;
   margin: 1rem;
-  padding: 2rem;
+  padding: 1rem;
   opacity: 0.85;
   max-width: 400px;
-  width: 100%;
+  width: 90%;
 }
 
 .taller {

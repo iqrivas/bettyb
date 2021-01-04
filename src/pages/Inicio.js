@@ -7,7 +7,6 @@ class Inicio extends React.Component {
     render() {
         return (
             <React.Fragment>
-
                 <Container className="event taller">
                     <Card >
                         <Card.Body>
