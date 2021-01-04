@@ -5,9 +5,7 @@ class Talleres extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Taller />
-                <Taller />
-                <Taller />
+                    <Taller />
             </React.Fragment>
         );
     }

@@ -39,7 +39,7 @@ nav li {
 }
 
 nav li a {
-  background-color:lightpink;
+  background-color:lightcoral;
   display: block;
   padding: 0.5rem;
   text-align: center;
@@ -53,7 +53,8 @@ nav a.active {
 
 nav a:hover {
   opacity: 0.9;
-  color:white ;
+  background-color: white;
+  color: lightcoral;
   text-decoration: none;
 }
 
@@ -74,6 +75,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width:90%;
 }
 
 .content img {
@@ -82,26 +84,18 @@ nav a:hover {
   
 }
 
-.card {
-  background-color: lightpink;
-  border-radius: 5px;
-  display: inline-block;
-  margin: 1rem;
-  padding: 2rem;
-  opacity: 0.8;
-  min-width: 400px;
-}
 
-.card h1 {
+.event h1 {
   margin-block-start: 0;
 }
 
 a.highlight {
   background-color: white;
   border-radius: 5px;
-  color:  lightpink;
+  color:  lightcoral;
   font-weight: bold;
   padding: 0.5rem;
+  align-self: auto;
 }
 
 .event {
@@ -110,16 +104,18 @@ a.highlight {
   display: inline-block;
   margin: 1rem;
   padding: 2rem;
-  opacity: 0.8;
-  min-width: 400px;
+  opacity: 0.85;
+  max-width: 400px;
+  width: 100%;
 }
 
-
-
+.taller {
+  max-width: 90%;
+}
 
 .footer {
     height: 60px;
-    background-color: hotpink;
+    background-color: lightcoral;
     font-size: calc(6px + 2vmin);
     padding-top: 0px;
     padding-bottom: 0px;

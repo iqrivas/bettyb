@@ -1,28 +1,32 @@
 import React from "react";
 import bettyb from "../images/bettyb.jpg";
+import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
 
 class Inicio extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div class="main-image">
+
+                <Container className="event taller">
+                    <Card >
+                        <Card.Body>
+                            <Card.Title>¡Hola! Soy Betty Barreto</Card.Title>
+                            <Card.Text>
+                                <span> 
+                                    Te doy la bienvenida a este espacio de sanación y crecimiento.
+                                    Sígueme en mis redes sociales para estar al tanto de nuestros próximos eventos.
+                                </span>
+                            </Card.Text>
+                            <Card.Link href="https://www.facebook.com/bettybarretopage/" rel="noopener noreferrer" target="_blank" className="highlight">Facebook</Card.Link>
+                            <Card.Link href="https://www.facebook.com/groups/1220010031682286" rel="noopener noreferrer" target="_blank" className="highlight">Grupo de Meditaciones Guiadas</Card.Link>
+                            <Card.Link href="https://www.instagram.com/bettybarreto.conecta/" rel="noopener noreferrer" target="_blank" className="highlight">Instagram</Card.Link>
+                        </Card.Body>
+                    </Card>
+                </Container>
+
+                <div className="main-image">
                     <img src={bettyb} alt="Betty Barreto"/>
-                </div>
-                <div class="content">
-                    <div class="card">
-                        <h1>Pr&oacute;ximo Taller</h1>
-                        <p>"Sana tus heridas y conecta con tu coraz&oacute;n"</p>
-                        <p>S&aacute;bado 17 de Octubre 2020</p>
-                        <a href="https://www.facebook.com/bettybarretopage/" rel="noopener noreferrer" target="_blank" class="highlight">Solicitar
-                            Informaci&oacute;n</a>
-                    </div>
-                    <div class="card">
-                        <h1>Pr&oacute;xima Meditaci&oacute;n</h1>
-                        <p>"Intención, Atención y Manifestación"</p>
-                        <p>Jueves 1 de Octubre 2020</p>
-                        <a href="https://www.facebook.com/groups/1220010031682286" rel="noopener noreferrer" target="_blank" class="highlight">Únete
-                            a Meditaciones Guiadas</a>
-                    </div>
                 </div>
             </React.Fragment>
         );

@@ -5,9 +5,11 @@ function Layout(props) {
     return (
         <React.Fragment>
             <header>
-                <div class="container">
+                <div className="container">
                     <TopNav/>
-                    {props.children}
+                    <div className="content mx-auto">
+                        {props.children}
+                    </div>
                 </div>
             </header>
         </React.Fragment>

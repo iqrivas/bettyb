@@ -10,6 +10,7 @@ import Talleres from "./pages/Talleres";
 import Meditaciones from "./pages/Meditaciones";
 import Contacto from "./pages/Contacto";
 import Ejercicios from "./pages/Ejercicios";
+import Constelaciones from "./pages/Constelaciones";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/meditaciones" component={Meditaciones} />
           <Route exact path="/contacto" component={Contacto} />
           <Route exact path="/ejercicios" component={Ejercicios} />
+          <Route exact path="/constelaciones" component={Constelaciones} />
         </Switch>
       </Layout>
     </BrowserRouter>
