@@ -1,32 +1,30 @@
 import React from "react";
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
+import bettyb from "../images/bettyb.jpg";
 
 class Inicio extends React.Component {
     render() {
         return (
-            <Container fluid >
-                <Jumbotron >
-                    <Container>
-                        <h1>Constelaciones Familiares</h1>
-                        <blockquote class="blockquote">
-                            <p class="mb-0">En todos los sistemas el amor está, lo único que hay que hacer es dejar que fluya,
-                            cuando no fluye es porque hay un desorden y lo que hay que respetar son los órdenes del amor.</p>
-                            <footer class="blockquote-footer">B. Hellinger</footer>
-                        </blockquote>
-                        <ul>
-                            <li>¿Qué son las Constelaciones Familiares?</li>
-                            <li>¿Cómo pueden ayudar a mejorar mi vida?</li>
-                            <li>¿Qué son los órdenes del amor?</li>
-                            <li>¿Cómo influyen en la realización de vida?</li>
-                        </ul>
-                        <p>
-                            <Button variant="primary">Vamos a Constelar</Button>
-                        </p>
-                    </Container>
-                </Jumbotron>
-            </Container>
+            <React.Fragment>
+                <div class="main-image">
+                    <img src={bettyb} alt="Betty Barreto"/>
+                </div>
+                <div class="content">
+                    <div class="card">
+                        <h1>Pr&oacute;ximo Taller</h1>
+                        <p>"Sana tus heridas y conecta con tu coraz&oacute;n"</p>
+                        <p>S&aacute;bado 17 de Octubre 2020</p>
+                        <a href="https://www.facebook.com/bettybarretopage/" rel="noopener noreferrer" target="_blank" class="highlight">Solicitar
+                            Informaci&oacute;n</a>
+                    </div>
+                    <div class="card">
+                        <h1>Pr&oacute;xima Meditaci&oacute;n</h1>
+                        <p>"Intención, Atención y Manifestación"</p>
+                        <p>Jueves 1 de Octubre 2020</p>
+                        <a href="https://www.facebook.com/groups/1220010031682286" rel="noopener noreferrer" target="_blank" class="highlight">Únete
+                            a Meditaciones Guiadas</a>
+                    </div>
+                </div>
+            </React.Fragment>
         );
     }
 }

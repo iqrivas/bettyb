@@ -6,7 +6,7 @@ import "./styles/TopNav.css";
 class TopNav extends React.Component {
   render() {
     return (
-          <div class="navigation">
+      <React.Fragment>
                 <nav class="pre-nav">
                     <a href="index.html" class="logo">
                         <FontAwesomeIcon icon={faSpa} size="1x" />
@@ -21,7 +21,7 @@ class TopNav extends React.Component {
                         <li><a href="/contacto">Contacto</a></li>
                     </ul>
                 </nav>
-          </div>
+      </React.Fragment>
     );
   }
 }
